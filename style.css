@@ -1,0 +1,421 @@
+body{
+    margin: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
+p{
+    margin: 0;
+}
+
+.all_location{
+    width: 960px;
+    height: 630px;
+    margin: 0 ;
+    position: relative;
+    margin: 0 auto 0 auto;
+    box-sizing: border-box;
+}
+
+.devushka{
+    offset-path: path("M356 476L335 465L313 440L306.5 438H300.5L296.5 438.5L291 439.5C289.5 440 286.4 441 286 441C285.6 441 282.833 442 281.5 442.5L276 445.5L271 447.5L267 450L262 452.5L258 455L255 457L252 459.5L242.5 466.5C237.833 468.833 228.4 473.6 228 474C227.5 474.5 215 479.5 213.5 480.5C212.3 481.3 205 485.5 201.5 487.5L190 494.5L176 502.5L169 505.5L163.5 506.5L157.5 508L153 508.5L148 509.5H143.5H139L102 510.5L95 510L88.5 508L81.5 506.5L66 501.5L52 495.5L44 490.5L34 485.5L26 481.5L10 470L3 463L1.5 460.5L1 449.5L3 447L14.5 439L24 434.5L33.5 429.5L39.5 424.5L42.5 420.5V413.251L30.5 400.5L30 391.5L33.5 385.5L34.5 382L41.5 374L51 367.5L67.5 358.5L82.5 350.5L99.5 342L116 333.5L129 326.5L137.5 321.5L148.5 314L155.5 306.5V297.5L154 294L150 290L144.5 285.5L132 277L124.5 274L117.5 269.5L95.5 256L84 248.5L69 239.5L60 235L48 227L41.5 221L39.5 217.5V212L43 209L49.5 205L59.5 201.5L66.5 200L72.5 196L79.5 190.5L81 188.5V184.5L74.5 178L71 172.5V159.5L75.5 156L82 153L87.5 152H100.5L107 156.5L111.5 162L117 168L124.5 177.5L131 185.5L139.5 196.5L148.5 206L160 214.5L167 217C171.833 216.833 181.6 216.5 182 216.5C182.4 216.5 186.5 215.833 188.5 215.5L201.5 210L206.5 206L212 199.5L216 192.5L216.5 188L216 182L214.5 176L213.5 171.5L211 162.5L205 154.5L199.5 144L200 132L203.5 129.5L209 127.5L215 129L221.5 131H249.5L254 130L256 128.5L258.5 126.5L259 124.5L259.5 122V119V112.5L262.5 109.5L266.5 107L270 105L273 102.5L275 101L283 94.5L287 90L289.5 86L292 82L293.5 78V55L291.5 49.5V35L293 27.5L297 21.5L300.5 16.5L303.5 14L312 9H328L333 10L341 16.5L352 26.5L361.5 35L367 40.5L373 43L381 43.5L392.5 43L405.5 39.5L415 41L422.5 45L425 47.5V53L419.5 56L408.5 59.5L400.5 63L396 66.5L394.5 69.5V82L394 96L393 100L390 106L385.5 112.5L381 118L378.5 123V139.5L381.5 143.5L386 146.5L392 149L396.5 150L400.5 153L406.5 158L411.5 165L413.5 170.5V187L411.5 191.5L406.5 196L402 198.5L397 203.5L393 211.5L391.5 215.5L391 222.5L390.5 236L389 250.5L387 259L382.5 266L375 276L359.5 288L349 295L339.5 301.5L327 307.5L313 316.5L295 327L282.5 335.5L265.5 346L261 351.5V361L270.5 371L279.5 377.5L293 384L305 391L327 400.5L341 404L356 400.5L371 402L388.5 412L408.5 423L436.5 438.5L461.5 453C469 457.5 484.2 466.7 485 467.5C485.8 468.3 498.333 474.5 504.5 477.5L518 482H531L539.5 477.5L544 471L546.5 460.5L555 454L568 453L576.5 456.5L586 464L594 473.5L599.5 485L608 491L618.5 496.5C624 496.5 635.4 496.5 637 496.5C638.6 496.5 648.667 491.167 653.5 488.5L671.5 478.5L743 437L766 418L794 401.5L842 378L861.5 362.5L878 348L885 328V314L879 292.5L866.5 273L854.5 260L842 257.5H827.5L812.5 264.5L796 277.5L769.5 294L735 314L686 344.5H670L651.5 335.5C646.667 331 636.8 321.9 636 321.5C635.2 321.1 623.333 311.667 617.5 307L612 293L617.5 282L645 269L696 243.5L720.5 226L734 206L738 188L731.5 172.5L718 161L707.5 153L688 149.5H670.5L657 157.5L637.5 168L620.5 179L598 190.5L572.5 202L554.5 212L543.5 223.5L536.5 253L519 271.5L494.5 279L469 277.5L449.5 269L432.5 253L421.5 233L424.5 206L436.5 179L446 165L472.5 139.5L501 118C507.833 115.167 521.8 109.4 523 109C524.2 108.6 537.167 102.833 543.5 100L554 90L551.5 83L541 76.5L532 61L533.5 45L541 25L558 7.5L576.5 1L596 4.5L609.5 18.5L617 32.5L618.5 50L601.5 64.5L587.5 73L580 91V106L594 112.5L604.5 110L612 102L619.5 90L630.5 74.5L650 61L675.5 59.5L702.5 66.5L720 76.5L730.5 88L727.5 101L730.5 112.5L745 115L758 106C760.833 101.333 766.6 91.6 767 90C767.4 88.4 776.5 83.6667 781 81.5L806 80L815 90L812 99C807.667 100.833 798.7 104.8 797.5 106C796.3 107.2 788.667 110.833 785 112.5V124L794 133L796.5 141");
+    position: absolute;
+    left: 88px;
+    top: -5px;
+    offset-rotate: 0deg;
+}
+
+.background-table{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.karta{
+    position: absolute;
+}
+
+.walking{
+    animation: move 3s linear ;
+    offset-anchor: top center;
+    animation-fill-mode: forwards;
+}
+
+.walking-two{
+    animation: move-two 3s linear ;
+    offset-anchor: top center;
+    animation-fill-mode: forwards;
+}
+
+.walking-three{
+    animation: move-three 3s linear ;
+    offset-anchor: top center;
+    animation-fill-mode: forwards;
+}
+
+.walking-four{
+    animation: move-four 3s linear ;
+    offset-anchor: top center;
+    animation-fill-mode: forwards;
+}
+
+.walking-five{
+    animation: move-five 3s linear ;
+    offset-anchor: top center;
+    animation-fill-mode: forwards;
+}
+
+.walking-six{
+    animation: move-six 3s linear ;
+    offset-anchor: top center;
+    animation-fill-mode: forwards;
+}
+
+.walking-seven{
+    animation: move-seven 3s linear ;
+    offset-anchor: top center;
+    animation-fill-mode: forwards;
+}
+
+.walking-eight{
+    animation: move-eight 3s linear ;
+    offset-anchor: top center;
+    animation-fill-mode: forwards;
+}
+
+.walking-nine{
+    animation: move-nine 3s linear ;
+    offset-anchor: top center;
+    animation-fill-mode: forwards;
+}
+
+.walking-ten{
+    animation: move-ten 3s linear ;
+    offset-anchor: top center;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move{
+    0%{offset-distance: 0%;}
+    100%{offset-distance: 10.2%; }
+}
+
+@keyframes move-two{
+    0%{offset-distance: 10.2%;}
+    100%{offset-distance: 21.2%;}
+}
+
+@keyframes move-three{
+    0%{offset-distance: 21.2%;}
+    100%{offset-distance: 30.7%;}
+}
+
+@keyframes move-four{
+    0%{offset-distance: 30.7%;}
+    100%{offset-distance: 39.5%;}
+}
+
+@keyframes move-five{
+    0%{offset-distance: 39.5%;}
+    100%{offset-distance: 49.7%;}
+}
+
+@keyframes move-six{
+    0%{offset-distance: 49.7%;}
+    100%{offset-distance: 60.4%;}
+}
+
+@keyframes move-seven{
+    0%{offset-distance: 60.4%;}
+    100%{offset-distance: 70.3%;}
+}
+
+@keyframes move-eight{
+    0%{offset-distance: 70.3%;}
+    100%{offset-distance: 80%;}
+}
+
+@keyframes move-nine{
+    0%{offset-distance: 80%;}
+    100%{offset-distance: 89.3%;}
+}
+
+@keyframes move-ten{
+    0%{offset-distance: 89.3%;}
+    100%{offset-distance: 100%;}
+}
+
+.bottom-bar{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rating{
+    width: 62px;
+    height: 62px;
+    background: linear-gradient(#5BBACC, #278891);
+    border-radius: 10px;
+    border: 1px solid #003128;
+}
+
+.rating-button{
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.rating img{
+    margin: 10px 0.5px;
+}
+
+.rating-table{
+    position: fixed;
+    height: 450px;
+    width: 525px;
+    background: linear-gradient(#A57037, #C28748, #A57037);
+    border-radius: 22px;
+    border: 5px solid #8A5E2E;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0;
+    z-index: 10;
+    left: 37%;
+    right: 37%;
+}
+
+.rating-table-on{
+    animation: open-table 1s;
+    animation-fill-mode: forwards;
+}
+
+.rating-table-off{
+    animation: close-table 1s;
+}
+
+@keyframes open-table {
+    0%{transform: translateY(-450px); opacity: 0;}
+    100%{transform: translateY(50px); opacity: 100;}
+}
+
+@keyframes close-table{
+    0%{transform: translateY(50px); opacity: 100;}
+    100%{transform: translateY(-450px); opacity: 0;}
+}
+
+.rating-title{
+    font-size: 26px;
+    font-weight: 600;
+    background: linear-gradient(#00BDE4, #00819C);
+    border-radius: 14px;
+    border: 1px solid #1F555A;
+    border-left: 3px solid #1F555A;
+    border-right: 3px solid #1F555A;
+    position: absolute;
+    top: -20px;
+    left: 130px;
+    right: 130px;
+}
+
+.table-close-button{
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border: 0;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.table-title{
+    margin: 0;
+    text-align: center;
+}
+
+.rating-list{
+    background: #8C5A31;
+    width: 460px;
+    height: 320px;
+    margin: 0 auto;
+    margin-top: 90px;
+    box-sizing: border-box;
+    padding-top: 30px;
+    border-radius: 22px;
+    overflow:scroll;
+    overflow-y:auto;
+    overflow-x:hidden;
+    font-weight: bold;
+}
+
+.people-place{
+    text-align: center;
+    width: 40px;
+}
+
+.place-name{
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-friend{
+    display:flex;
+    align-items: center;
+    width: 250px;
+    justify-content: left;
+}
+
+.rating-list::-webkit-scrollbar {
+    width: 0;
+  }
+
+.table-list{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(#00BDE4, #00819C);
+    width: 80%;
+    margin: 0 auto;
+    height: 30px;
+    align-items: center;
+    border-radius: 14px;
+    border: 1px solid #1F555A;
+    border-left: 3px solid #1F555A;
+    border-right: 3px solid #1F555A;
+
+}
+
+.pepople-in-table{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(#00BDE4, #00819C);
+    width: 80%;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #4D878D;
+    border-left: 3px solid #4D878D;
+    border-right: 3px solid #4D878D;
+}
+
+.friend-in-table{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+    width: 80%;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #4D878D;
+    border-left: 3px solid #4D878D;
+    border-right: 3px solid #4D878D;
+}
+
+.name-lastName{
+    margin-left: 10px;
+}
+
+.number-photo-name{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.exp-number{
+    width: 50px;
+    text-align: center;
+}
+
+.example{
+    display: none;
+}
+
+.chat, .messages, .button, .scroll-left, .scroll-right, .friend, .friend-add{
+    background: transparent;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.friends-list{
+    width: 470px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: auto;
+    position: relative;
+    top: 10px;
+}
+
+.friends-list-scroll-disabled{
+    overflow: hidden;
+    position: relative;
+    top: 2px;
+}
+
+.friends-list::-webkit-scrollbar{
+    width: 0;
+}
+
+.friend-button-area{
+    position: relative;
+    margin-right: 10px;
+}
+
+.friend-add{
+    position: absolute;
+    left: 20px;
+    top: -7px;
+    z-index: 20;
+    width: 28px;
+    height: 28px;
+}
+
+.friends-bar{
+    padding: 0;
+    margin: 0;
+    width: 536px;
+    height: 63px;
+    background: url("pic/friends-fon.png") no-repeat 100% 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.table-background{
+    width: 980px;
+    height: 630px;
+    position: absolute;
+    z-index: 1;
+    animation: table-animation 0.7s;
+    animation-fill-mode: forwards;
+}
+
+.table-background-off{
+    display: none;
+}
+
+.table-background-off-animation{
+    animation: table-animation-off 0.7s;
+}
+
+@keyframes table-animation{
+    0%{opacity: 0;}
+    100%{opacity: 0.5;}
+}
+
+@keyframes table-animation-off{
+    0%{opacity: 0.5;}
+    100%{opacity: 0;}
+}
