@@ -227,11 +227,11 @@ for(let i = 0; i < dataRatingLengthGet; i++){
 }
 
 buttonChat.addEventListener('mouseover', () =>{
-    buttonImg.src = "/pic/chat-active.png";
+    buttonImg.src = "./pic/chat-active.png";
 });
 
 buttonChat.addEventListener('mouseout', () => {
-    buttonImg.src = "/pic/chat-disactiv.png";
+    buttonImg.src = "./pic/chat-disactiv.png";
 });
 
 friendsList.addEventListener('mouseover', () => {
