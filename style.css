@@ -176,7 +176,7 @@ p{
 }
 
 .rating-table{
-    position: fixed;
+    position: absolute;
     height: 450px;
     width: 525px;
     background: linear-gradient(#A57037, #C28748, #A57037);
@@ -185,7 +185,7 @@ p{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     opacity: 0;
-    z-index: 10;
+    z-index: 40;
     left: 37%;
     right: 37%;
 }
@@ -397,7 +397,7 @@ p{
     width: 980px;
     height: 630px;
     position: absolute;
-    z-index: 1;
+    z-index: 30;
     animation: table-animation 0.7s;
     animation-fill-mode: forwards;
 }

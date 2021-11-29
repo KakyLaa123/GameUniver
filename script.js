@@ -132,10 +132,10 @@ for(let i = 0; i < dataRatingLengthGet; i++){
 
 for(let abc = 0; abc < 2; abc++){
     for (let i = 0; i < dataRatingTable.length - 1; i++){
-        let minValue = Number(dataRatingTable[i].points);
+        let maxValue = Number(dataRatingTable[i].points);
         
             for (let j = i + 1; j < dataRatingTable.length; j++) {
-            if (Number(dataRatingTable[j].points) < minValue) {
+            if (Number(dataRatingTable[j].points) > maxValue) {
                 let minValueObj = dataRatingTable[j];
                 let swapObj = dataRatingTable[i];
                 dataRatingTable[i] = minValueObj;
@@ -248,7 +248,7 @@ let friendNumber = document.querySelectorAll('.friend');
 
 buttonScrollFriendsLeft.addEventListener('click', () => {
     if(scrollPx >= 1){
-        let scroll = 60 * scrollPx;
+        let scroll = (59 + 1) * scrollPx;
 
         let scrollMove = scroll;
         
@@ -259,7 +259,7 @@ buttonScrollFriendsLeft.addEventListener('click', () => {
             buttonScrollFriendsLeft.disabled = true;
             console.log(friendsList.scrollLeft);
             console.log(scrollPx);
-            if(scrollMove == scroll - 61){
+            if(scrollMove == scroll - (59 + 2)){
                 clearInterval(scrollAnimation);
                 buttonScrollFriendsLeft.disabled = false;
             }
@@ -269,8 +269,8 @@ buttonScrollFriendsLeft.addEventListener('click', () => {
 });
 
 buttonScrollFriendsRight.addEventListener('click', () => {
-    if(scrollPx < friendNumber.length - 7){
-        let scroll = 60 * scrollPx;
+    if(scrollPx < friendNumber.length - (5 + 2)){
+        let scroll = (59 + 1) * scrollPx;
 
         let scrollMove = scroll;
         
@@ -281,7 +281,7 @@ buttonScrollFriendsRight.addEventListener('click', () => {
             buttonScrollFriendsRight.disabled = true;
             console.log(friendsList.scrollLeft);
                 console.log(scrollPx);
-            if(scrollMove == scroll + 61){
+            if(scrollMove == scroll + (59+2)){
                 clearInterval(scrollAnimation);
                 buttonScrollFriendsRight.disabled = false;
             }
