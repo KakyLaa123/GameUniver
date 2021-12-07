@@ -257,8 +257,6 @@ buttonScrollFriendsLeft.addEventListener('click', () => {
         let scrollAnimation = setInterval(() => {
             friendsList.scrollLeft = scrollMove--;
             buttonScrollFriendsLeft.disabled = true;
-            console.log(friendsList.scrollLeft);
-            console.log(scrollPx);
             if(scrollMove == scroll - (59 + 2)){
                 clearInterval(scrollAnimation);
                 buttonScrollFriendsLeft.disabled = false;
@@ -279,8 +277,6 @@ buttonScrollFriendsRight.addEventListener('click', () => {
         let scrollAnimation = setInterval(() => {
             friendsList.scrollLeft = scrollMove++;
             buttonScrollFriendsRight.disabled = true;
-            console.log(friendsList.scrollLeft);
-                console.log(scrollPx);
             if(scrollMove == scroll + (59+2)){
                 clearInterval(scrollAnimation);
                 buttonScrollFriendsRight.disabled = false;
